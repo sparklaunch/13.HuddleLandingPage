@@ -57,4 +57,21 @@
         background-color: rgb(230, 116, 228);
         color: white;
     }
+    @media all and (max-width: 1440px) {
+        #content {
+            flex-direction: column;
+        }
+        #illustration {
+            width: 100%;
+        }
+        #detail {
+            width: 100%;
+            text-align: center;
+        }
+        #detail > button {
+            width: 60%;
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
 </style>

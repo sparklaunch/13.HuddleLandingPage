@@ -25,4 +25,9 @@
         border: 1px solid rgb(255, 73, 188);
         color: rgb(255, 73, 188);
     }
+    @media all and (max-width: 1440px) {
+        #footer {
+            align-self: center;
+        }
+    }
 </style>

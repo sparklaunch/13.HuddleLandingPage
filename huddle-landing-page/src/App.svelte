@@ -28,4 +28,15 @@
         flex-direction: column;
         width: 80%;
     }
+    @media all and (max-width: 1440px) {
+        #app {
+            height: auto;
+            display: block;
+            padding: 50px 0;
+        }
+        #container {
+            width: 90%;
+            margin: auto;
+        }
+    }
 </style>
