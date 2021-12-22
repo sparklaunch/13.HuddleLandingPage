@@ -15,8 +15,14 @@
         border: 1px solid white;
         border-radius: 50%;
         cursor: pointer;
+        transition: color 0.3s, border 0.3s;
     }
     #footer > ion-icon:not(:last-child) {
         margin-right: 10px;
+    }
+    #footer > ion-icon:hover,
+    #footer > ion-icon:active {
+        border: 1px solid rgb(255, 73, 188);
+        color: rgb(255, 73, 188);
     }
 </style>

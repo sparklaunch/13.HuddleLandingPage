@@ -46,8 +46,15 @@
         padding: 15px 60px;
         font-family: "Poppins", sans-serif;
         font-size: 20px;
+        border: none;
         border-radius: 100px;
         cursor: pointer;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+        transition: background-color 0.3s, color 0.3s;
+    }
+    #detail > button:hover,
+    #detail > button:active {
+        background-color: rgb(230, 116, 228);
+        color: white;
     }
 </style>
