@@ -7,3 +7,14 @@ html,
 body {
     height: 100%;
 }
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(92, 66, 168);
+}
+#desktop-body {
+    background-image: url("/assets/bg-desktop.svg");
+}
+#mobile-body {
+    background-image: url("/assets/bg-mobile.svg");
+}
