@@ -8,16 +8,16 @@
 </script>
 
 <svelte:window bind:innerWidth />
-<div id="app">
+<main>
     <div id="container">
         <Logo />
         <Content />
         <Footer />
     </div>
-</div>
+</main>
 
 <style>
-    #app {
+    main {
         height: 100%;
         display: flex;
         justify-content: center;
@@ -29,7 +29,7 @@
         width: 80%;
     }
     @media all and (max-width: 1440px) {
-        #app {
+        main {
             height: auto;
             display: block;
             padding: 50px 0;
